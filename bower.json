@@ -1,0 +1,11 @@
+{
+  "name": "opensoft-wsse",
+  "main": "wsse.js",
+  "version": "0.1.0",
+  "description": "Lib for generating X-WSSE header",
+  "keywords": [
+    "wsse",
+    "js"
+  ],
+  "license": "MIT"
+}
