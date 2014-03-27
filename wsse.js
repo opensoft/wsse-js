@@ -361,7 +361,7 @@ function wsse(Password) {
     var PasswordDigest, Nonce, Created;
     var r = new Array;
     
-    Nonce = b64_sha1(isodatetime() + 'There is more than words');
+    Nonce = b64_sha1(isodatetime() + 'There is more than words' + Math.random());
     nonceEncoded = encode64(Nonce);
     Created = isodatetime();
     PasswordDigest = b64_sha1(Nonce + Created + Password);
